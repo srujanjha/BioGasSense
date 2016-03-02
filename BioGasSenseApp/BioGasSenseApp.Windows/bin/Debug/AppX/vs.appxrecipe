@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SRUJAN</Machine>
+    <WindowsUser>Srujan Jha</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>3ff09ef2-a5e7-4b1c-a355-6942fc33eb49</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Srujan Jha\documents\visual studio 2015\Projects\BioGasSense\BioGasSenseApp\BioGasSenseApp.Windows\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>00EFD4541F2F9672EFD6E6ECD20EB513673337B212E348355635B71C5124ED32</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>3ff09ef2-a5e7-4b1c-a355-6942fc33eb49_1.0.0.0_neutral__6tw3w9q8b5ewe</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>3ff09ef2-a5e7-4b1c-a355-6942fc33eb49_6tw3w9q8b5ewe!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>3ff09ef2-a5e7-4b1c-a355-6942fc33eb49</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Srujan Jha</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Srujan Jha\documents\visual studio 2015\Projects\BioGasSense\BioGasSenseApp\BioGasSenseApp.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-03-02T16:45:19.750</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\documents\visual studio 2015\Projects\BioGasSense\BioGasSenseApp\BioGasSenseApp.Windows\bin\Debug\BioGasSenseApp.Windows.exe">
+      <PackagePath>BioGasSenseApp.Windows.exe</PackagePath>
+      <Modified>2016-03-02T16:45:41.792</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\documents\visual studio 2015\Projects\BioGasSense\BioGasSenseApp\BioGasSenseApp.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-06T16:31:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\documents\visual studio 2015\Projects\BioGasSense\BioGasSenseApp\BioGasSenseApp.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-06T16:31:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\documents\visual studio 2015\Projects\BioGasSense\BioGasSenseApp\BioGasSenseApp.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-06T16:31:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\documents\visual studio 2015\Projects\BioGasSense\BioGasSenseApp\BioGasSenseApp.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-06T16:31:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\documents\visual studio 2015\Projects\BioGasSense\BioGasSenseApp\BioGasSenseApp.Shared\background1.png">
+      <PackagePath>background1.png</PackagePath>
+      <Modified>2016-03-01T13:47:23.522</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\documents\visual studio 2015\Projects\BioGasSense\BioGasSenseApp\BioGasSenseApp.Shared\background.png">
+      <PackagePath>background.png</PackagePath>
+      <Modified>2016-03-01T11:13:14.661</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\documents\visual studio 2015\Projects\BioGasSense\BioGasSenseApp\BioGasSenseApp.Windows\bin\Debug\BioGasSenseApp.Windows.xr.xml">
+      <PackagePath>BioGasSenseApp.Windows.xr.xml</PackagePath>
+      <Modified>2016-03-02T16:45:18.882</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\documents\visual studio 2015\Projects\BioGasSense\BioGasSenseApp\BioGasSenseApp.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2016-03-02T16:45:19.105</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\documents\visual studio 2015\Projects\BioGasSense\BioGasSenseApp\BioGasSenseApp.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2016-03-02T16:45:19.116</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Srujan Jha\documents\visual studio 2015\Projects\BioGasSense\BioGasSenseApp\BioGasSenseApp.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2016-03-02T16:45:19.565</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
