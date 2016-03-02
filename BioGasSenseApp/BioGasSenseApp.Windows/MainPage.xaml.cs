@@ -47,7 +47,7 @@ namespace BioGasSenseApp
             try
             {
                 var client = new HttpClient();
-                var response = await client.GetAsync(new Uri("https://biogas.azure-mobile.net/tables/biogassensor?$top=1&$orderby=__createdAt%20desc"));
+                var response = await client.GetAsync(new Uri("https://biogassense.azure-mobile.net/tables/biogassensor?$top=1&$orderby=__createdAt%20desc"));
                 var jstring = await response.Content.ReadAsStringAsync();
                 JsonValue ob = JsonValue.Parse(jstring);
                 JsonArray ob1 = ob.GetArray();

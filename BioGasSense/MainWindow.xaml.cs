@@ -26,9 +26,9 @@ namespace BioGasSense
     public partial class MainWindow : Window
     {
         public static MobileServiceClient MobileService = new MobileServiceClient(
-       "https://biogas.azure-mobile.net/",
-       "ciHDnhDOmBDdFQWUfNyLDLRIMGaizc98"
-   );
+    "https://biogassense.azure-mobile.net/",
+    "GkAsiFhcjUnbBvdHTdwpQwGTAramRa77"
+);
         public MainWindow()
         {
             InitializeComponent();
@@ -67,7 +67,7 @@ namespace BioGasSense
             btnStop.IsEnabled = true;
             readings = "";
             txtValue.Text = "";
-            dispatcherTimer.Interval = new TimeSpan(0, 0, 2);
+            dispatcherTimer.Interval = new TimeSpan(0, 0, 60);
             dispatcherTimer.IsEnabled = true;
             dispatcherTimer.Start();
         }
@@ -111,9 +111,10 @@ namespace BioGasSense
             readings = _serialPort.ReadTo("\n");
             readings=readings.Replace("\n", "").Replace("\r","");
             ar = readings.Split(' ');
+            if (ar.Length != 5) return;
             new Thread(() =>
             {
-                txtValue.Dispatcher.BeginInvoke((Action)(() => txtValue.Text = "Sensor 1:" + ar[0] + "\nSensor 2:" + ar[1] + "\nSensor 3:" + ar[2] + "\nSensor 4:" + ar[3] + "\nSensor 5:" + ar[4] ));appendFile();
+                appendFile(); txtValue.Dispatcher.BeginInvoke((Action)(() => txtValue.Text = "Sensor 1:" + ar[0] + "\nSensor 2:" + ar[1] + "\nSensor 3:" + ar[2] + "\nSensor 4:" + ar[3] + "\nSensor 5:" + ar[4] ));
             }).Start();
             _serialPort.Close();
             _serialPort.Dispose();
@@ -127,7 +128,8 @@ namespace BioGasSense
                     sw.WriteLine(DateTime.Now.ToString() + "," + readings.Replace(" ",","));
                 }
             }
-            catch { }
+            catch (Exception e)
+            { }
             try
             {
                 BioGasSensor item = new BioGasSensor { sensor1 = ar[0], sensor2 = ar[1], sensor3 = ar[2], sensor4 = ar[3],sensor5 = ar[4] };

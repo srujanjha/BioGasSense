@@ -26,7 +26,7 @@ namespace BioGasSenseWeb
         public void refresh()
         {
 
-            string url = "https://biogas.azure-mobile.net/tables/biogassensor?$top=1&$orderby=__createdAt%20desc";
+            string url = "https://biogassense.azure-mobile.net/tables/biogassensor?$top=1&$orderby=__createdAt%20desc";
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
             HttpWebResponse response = (HttpWebResponse)request.GetResponse();
             Stream receiveStream = response.GetResponseStream();

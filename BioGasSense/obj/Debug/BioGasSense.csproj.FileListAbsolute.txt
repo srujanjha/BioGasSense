@@ -23,3 +23,7 @@ c:\users\srujan jha\documents\visual studio 2015\Projects\BioGasSense\BioGasSens
 c:\users\srujan jha\documents\visual studio 2015\Projects\BioGasSense\BioGasSense\obj\Debug\BioGasSense.csproj.GenerateResource.Cache
 c:\users\srujan jha\documents\visual studio 2015\Projects\BioGasSense\BioGasSense\obj\Debug\BioGasSense.exe
 c:\users\srujan jha\documents\visual studio 2015\Projects\BioGasSense\BioGasSense\obj\Debug\BioGasSense.pdb
+C:\Users\Srujan Jha\documents\visual studio 2015\Projects\BioGasSense\BioGasSense\bin\Debug\BioGasSense.exe.manifest
+C:\Users\Srujan Jha\documents\visual studio 2015\Projects\BioGasSense\BioGasSense\bin\Debug\BioGasSense.application
+C:\Users\Srujan Jha\documents\visual studio 2015\Projects\BioGasSense\BioGasSense\obj\Debug\BioGasSense.exe.manifest
+C:\Users\Srujan Jha\documents\visual studio 2015\Projects\BioGasSense\BioGasSense\obj\Debug\BioGasSense.application

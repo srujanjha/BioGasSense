@@ -12,3 +12,7 @@ C:\Users\Srujan Jha\documents\visual studio 2015\Projects\BioGasSense\BioGasSens
 C:\Users\Srujan Jha\documents\visual studio 2015\Projects\BioGasSense\BioGasSenseWPF\obj\Debug\BioGasSenseWPF.csproj.GenerateResource.Cache
 C:\Users\Srujan Jha\documents\visual studio 2015\Projects\BioGasSense\BioGasSenseWPF\obj\Debug\BioGasSenseWPF.exe
 C:\Users\Srujan Jha\documents\visual studio 2015\Projects\BioGasSense\BioGasSenseWPF\obj\Debug\BioGasSenseWPF.pdb
+C:\Users\Srujan Jha\documents\visual studio 2015\Projects\BioGasSense\BioGasSenseWPF\bin\Debug\BioGasSenseWPF.exe.manifest
+C:\Users\Srujan Jha\documents\visual studio 2015\Projects\BioGasSense\BioGasSenseWPF\bin\Debug\BioGasSenseWPF.application
+C:\Users\Srujan Jha\documents\visual studio 2015\Projects\BioGasSense\BioGasSenseWPF\obj\Debug\BioGasSenseWPF.exe.manifest
+C:\Users\Srujan Jha\documents\visual studio 2015\Projects\BioGasSense\BioGasSenseWPF\obj\Debug\BioGasSenseWPF.application
